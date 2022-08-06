@@ -7,7 +7,6 @@ a{
 }
 header{
   height:70px;
-  /*border:5px solid blue;*/
   background-color: #3b2632;
 }
 #brand{
@@ -33,14 +32,18 @@ header{
   margin-left:10%;
   margin-top: 2%;
 }
-
+/*Filter*/
 .filter{
   height:600px;
   width:20%;
   border:2px solid green;
   float: left;
 }
-
+dt{
+  font-weight: bold;
+  text-decoration-line: underline;
+}
+/*Contents*/
 .content01{
   height:700px;
   width:75%;
@@ -48,48 +51,43 @@ header{
   
   float: left;
 }
-
-/* Footer Block Css */
-footer{
-  height:140px;
-  background-color: #3b2632;
-  color:#fff;
-  text-align: center;
+/*Search Bar*/
+.search{
+  height: 50px;
+  width: 100%;
+  background-color: rgb(246, 246, 246);
+  text-align: left;
 }
 
-ul{
-  list-style: none;
-}
-span{
-  color:rgb(212 23 22 / 1) ;
-  font-weight:bold;
-  font-size: 23px;
-  text-decoration-line: underline;
-}
-p{
-  font-size: 19px;
-}
-.fotDiv{
-  width:31%;
-  float:left;
-  border-right: 2px solid white;
+.resturant{
+  height: 33%;
+  width: 100%;
+  background-color: rgb(246, 246, 246);
+  margin-right: 1%;
+  margin-top: 1%;
+
 }
 
-.noBorder{
-  border:none
+.image{
+  height: 93%;
+  width: 40%;
+  margin:1%;
+  border-radius: 5px;
+  float: left;
 }
-h2{
-  text-decoration-line: underline;
-  color: blue;
+.image> img {
+  height: 95%;
+  width: 100%;
+  border-radius: 5px;
 }
-h3{
-  text-align: center;
-  text-decoration-line: underline;
+.content{
+  height: 93%;
+  width: 40%;
+  border-radius: 5px;
+  margin-left: 30px;
+  float: left;
 }
-dt{
-  font-weight: bold;
-  text-decoration-line: underline;
-}
+/*Lunch Button*/
 .Lunch-button{
   background-color:rgb(200, 0, 0);
   color:white;
@@ -101,15 +99,14 @@ dt{
   transition: opacity 0.15s;
   margin-bottom: 10px;
   padding: 4px;
-
   }
-
   .Lunch-button:hover{
    opacity: 0.6;
   }
   .Lunch-button:active{
    opacity: 0.4;
   }
+/*Dinner Button*/
   .Dinner-button{
   background-color:greenyellow;
   color:white;
@@ -129,6 +126,7 @@ dt{
   .Dinner-button:active{
    opacity: 0.4;
   }
+  /*North_Indian Button*/
   .North_Indian-button{
   background-color:rgb(24, 24, 217);
   color:white;
@@ -140,15 +138,14 @@ dt{
   transition: opacity 0.15s;
   padding: 4px;
   }
-
   .North_Indian-button:hover{
    opacity: 0.6;
   }
   .North_Indian:active{
    opacity: 0.4;
-
   }
-  
+
+  /*Chinese Button*/
   .Chinese-button{
   background-color:rgb(14, 193, 20);
   color:white;
@@ -168,42 +165,46 @@ dt{
   .Chinese-button:active{
    opacity: 0.4;
   }
-  .resturant{
-    height: 33%;
-    width: 100%;
-    background-color: rgb(246, 246, 246);
-    margin-right: 1%;
-    margin-top: 1%;
+span{
+  color:rgb(212 23 22 / 1) ;
+  font-weight:bold;
+  font-size: 23px;
+  text-decoration-line: underline;
+}
+p{
+  font-size: 19px;
+}
+h2{
+  text-decoration-line: underline;
+  color: blue;
+}
 
-  }
+
+
+/* Footer Block Css */
+footer{
+  height:140px;
+  background-color: #3b2632;
+  color:#fff;
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+}
+
+.fotDiv{
+  width:31%;
+  float:left;
+  border-right: 2px solid white;
+}
+
+.noBorder{
+  border:none
+}
+h3{
+  text-align: center;
+  text-decoration-line: underline;
+}
  
-  .image{
-    height: 93%;
-    width: 40%;
-    margin:1%;
-    border-radius: 5px;
-    
-    float: left;
-  }
-  .content{
-    height: 93%;
-    width: 40%;
-    border-radius: 5px;
-    margin-left: 30px;
-    float: left;
-  }
-  
-  .image> img {
-    height: 95%;
-    width: 100%;
-    border-radius: 5px;
-   
-  }
-  .search{
-    height: 50px;
-    width: 100%;
-    background-color: rgb(246, 246, 246);
-    text-align: left;
-  }
-  
   
